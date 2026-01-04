@@ -1,0 +1,50 @@
+body {
+    background-color: #f9f9f9;
+    font-family: "微軟正黑體", sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+
+input.form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
+
+button.btn-primary {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button.btn-primary:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+#restaurantList .list-group-item {
+    border-radius: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#restaurantList .list-group-item:hover {
+    background-color: #f1c40f;
+    color: #fff;
+}
+
+.delete-btn {
+    margin-left: 10px;
+}
